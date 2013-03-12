@@ -3,7 +3,7 @@
 
 (function(undefined) {
 
-var shelinkes;
+var sheLikes;
 
 BEM.DOM.decl('boy', {
 
