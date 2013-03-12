@@ -1,0 +1,45 @@
+.boy
+{
+    display: inline-block:
+    margin: 50px;
+}
+
+.boy__head
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #6c4b1b;
+    position: relative;
+}
+
+.boy__body
+{
+    width: 80px;
+    height: 160px;
+    margin-left: 10px;
+    background: #5e694b;
+    position: relative;
+}
+
+.boy__body:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    background: #f0ddab;
+    width: 90px;
+    height: 80px;
+}
+
+.boy__body:after
+{
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    background: #434930;
+    width: 1px;
+    height: 70px;
+}
