@@ -11,10 +11,16 @@
         block: 'world',
         content: [
             {
-                block: 'boy'
+                block: 'boy',
+                js: {
+                    music: 'hip-hop'
+                }
             },
             {
-                block: 'girl'
+                block: 'girl',
+                js: {
+                    music: 'classic'
+                }
             }
         ]
     }
