@@ -1,0 +1,165 @@
+/* container.ie.css begin */
+/* container.css begin */
+/* blocks/b-page/b-page.css begin */
+html, .b-page__body
+{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* blocks/b-page/b-page.css end */
+
+/* blocks/world/world.css begin */
+.world
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+    background: -webkit-linear-gradient(-90deg, rgb(43,76,143) 0%, rgb(138,169,234) 100%);
+}
+
+/* blocks/world/world.css end */
+
+/* blocks/boy/boy.css begin */
+.boy
+{
+    display: inline-block;
+    margin: 50px 150px 20px;
+}
+
+.boy__speech-cloud
+{
+    display: none;
+}
+.boy_i-know_yes .boy__speech-cloud
+{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    position: absolute;
+    margin: -75px 0 0 80px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.boy__speech-cloud:before
+{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid white;
+    border-bottom: 13px solid transparent;
+    margin: 13px 0 0 -25px;
+}
+
+.boy__button
+{
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.boy__head
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #6c4b1b;
+    position: relative;
+}
+
+.boy__body
+{
+    width: 80px;
+    height: 160px;
+    margin-left: 10px;
+    background: #5e694b;
+    position: relative;
+}
+
+.boy__body:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -5px;
+    background: #f0ddab;
+    width: 90px;
+    height: 80px;
+}
+
+.boy__body:after
+{
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    background: #434930;
+    width: 1px;
+    height: 70px;
+}
+
+/* blocks/boy/boy.css end */
+
+/* blocks/girl/girl.css begin */
+.girl
+{
+    display: inline-block;
+    margin: 50px 150px 20px;
+}
+
+.girl__head
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffe6d9;
+    position: relative;
+}
+
+.girl__head:before
+{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -40px;
+    left: 50%;
+    border: solid;
+    border-width: 20px 40px;
+    border-color: transparent red;
+}
+
+.girl__body
+{
+    width: 0;
+    height: 0;
+
+    margin-top: -20px;
+    margin-left: -20px;
+
+    border: solid;
+    border-width: 0 70px 150px 70px;
+    border-color: transparent transparent green transparent;
+}
+
+/* blocks/girl/girl.css end */
+
+
+/* container.css end */
+
+
+/* container.ie.css end */
+
