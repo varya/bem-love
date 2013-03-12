@@ -3,14 +3,25 @@
 
 (function(undefined) {
 
+var shelinkes;
+
 BEM.DOM.decl('boy', {
 
     onSetMod : {
 
         'js' : function() {
-            console.log('xxx111');
+            this.askGirl();
+        },
+        'i-know' : {
+            'yes' : function() {
+                this.elem('speech-cloud').text('I know! She likes ' + sheLikes + ' music!');
+            }
         }
 
+    },
+    askGirl: function() {
+        sheLikes = this.findBlockOutside('world').findBlockInside('girl').params['music'];
+        this.setMod('i-know', 'yes');
     }
 
 }, {
