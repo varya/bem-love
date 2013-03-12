@@ -1,0 +1,12 @@
+.girl
+{
+    margin: 50px;
+}
+
+.girl__head
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffe6d9;
+}
