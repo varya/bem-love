@@ -1,0 +1,9 @@
+.world
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+    background: -webkit-linear-gradient(-90deg, rgb(43,76,143) 0%, rgb(138,169,234) 100%);
+}
