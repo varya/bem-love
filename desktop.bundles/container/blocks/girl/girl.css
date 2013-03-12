@@ -26,3 +26,16 @@
     border-width: 20px 40px;
     border-color: transparent red;
 }
+
+.girl__body
+{
+    width: 0;
+    height: 0;
+
+    margin-top: -20px;
+    margin-left: -20px;
+
+    border: solid;
+    border-width: 0 70px 150px 70px;
+    border-color: transparent transparent green transparent;
+}
