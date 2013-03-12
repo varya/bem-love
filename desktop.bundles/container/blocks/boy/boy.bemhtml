@@ -3,6 +3,14 @@ block boy, content: [
         elem: 'head'
     },
     {
-        elem: 'body'
+        elem: 'body',
+        content: {
+            elem: 'button'
+        }
     }
 ]
+
+block boy, elem button {
+    tag: 'span'
+    content: 'Just ask her!'
+}

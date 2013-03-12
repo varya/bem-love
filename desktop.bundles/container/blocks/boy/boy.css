@@ -4,6 +4,13 @@
     margin: 50px;
 }
 
+.boy__button
+{
+    z-index: 2;
+    position: absolute;
+    cursor: pointer;
+}
+
 .boy__head
 {
     width: 100px;
