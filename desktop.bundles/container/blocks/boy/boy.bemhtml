@@ -3,6 +3,9 @@ block boy, content: [
         elem: 'head'
     },
     {
+        elem: 'speech-cloud'
+    },
+    {
         elem: 'body',
         content: {
             elem: 'button'
