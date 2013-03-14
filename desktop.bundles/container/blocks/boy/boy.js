@@ -14,13 +14,13 @@ BEM.DOM.decl('boy', {
         },
         'i-know' : {
             'yes' : function() {
-                this.elem('speech-cloud').text('I know! She likes ' + sheLikes + ' music!');
+                this.elem('speech-cloud').text('I know! She likes ' + this.askGirl() + ' music!');
             }
         }
 
     },
     askGirl: function() {
-        sheLikes = this.findBlockOutside('world').findBlockInside('girl').params['music'];
+        sheLikes = sheLikes ? sheLikes : this.findBlockOutside('world').findBlockInside('girl').params['music'];
         this.setMod('i-know', 'yes');
     }
 
