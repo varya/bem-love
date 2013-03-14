@@ -34,7 +34,27 @@ html, .b-page__body
 {
     display: none;
 }
-.boy_i-know_yes .boy__speech-cloud
+
+.boy_asking_process .boy__head
+{
+-webkit-animation-name: blinked;
+-webkit-animation-duration: 2s;
+-webkit-animation-iteration-count: 1;
+}
+
+
+@-webkit-keyframes blinked {
+  from {
+    top: 99%;
+    background: #6c4b1b;
+  }
+  to {
+    top: 1%;
+    background: #red;
+  }
+}
+
+.boy_asking_done .boy__speech-cloud
 {
     display: block;
     width: 150px;
@@ -77,6 +97,11 @@ html, .b-page__body
     border-radius: 50%;
     background: #6c4b1b;
     position: relative;
+}
+
+.boy_asking_process .boy__head
+{
+    background: red;
 }
 
 .boy__body

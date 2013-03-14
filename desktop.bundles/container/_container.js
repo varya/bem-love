@@ -3212,18 +3212,22 @@ BEM.DOM.decl('boy', {
     onSetMod : {
 
         'js' : function() {
-            this.askGirl();
+            this.setMod('asking', 'process');
         },
-        'i-know' : {
-            'yes' : function() {
-                this.elem('speech-cloud').text('I know! She likes ' + sheLikes + ' music!');
+        'asking' : {
+            'process' : function() {
+
+                var _this = this;
+                setTimeout(function(){
+                    _this.elem('speech-cloud').text('I know! She likes ' + _this.askGirl() + ' music!');
+                    _this.setMod('asking', 'done');
+                }, 2000);
             }
         }
 
     },
     askGirl: function() {
-        sheLikes = this.findBlockOutside('world').findBlockInside('girl').params['music'];
-        this.setMod('i-know', 'yes');
+        return (sheLikes = sheLikes ? sheLikes : this.findBlockOutside('world').findBlockInside('girl').params.music);
     }
 
 }, {
