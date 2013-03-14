@@ -19,7 +19,7 @@
             {
                 block: 'girl',
                 js: {
-                    music: 'classic'
+                    music: 'classical'
                 }
             }
         ]
