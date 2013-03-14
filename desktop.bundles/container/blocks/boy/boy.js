@@ -25,7 +25,7 @@ BEM.DOM.decl('boy', {
 
     },
     askGirl: function() {
-        sheLikes = sheLikes ? sheLikes : this.findBlockOutside('world').findBlockInside('girl').params.music;
+        return (sheLikes = sheLikes ? sheLikes : this.findBlockOutside('world').findBlockInside('girl').params.music);
     }
 
 }, {
