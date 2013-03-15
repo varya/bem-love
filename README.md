@@ -1,5 +1,6 @@
 This project is to show how 2 (or more, haha) BEM blocks can be connected and
-share data.
+share data.<br/>
+Project runs currently in Russian.
 
 Every page shows some features of
 [i-bem](https://github.com/bem/bem-bl/tree/master/blocks-common/i-bem)
@@ -10,4 +11,4 @@ any contribution: either imporving code or translation work.
 
 List of pages:
 
- * [Frinding a block and reading its params](https://github.com/toivonen/bem-love/blob/master/desktop.bundles/ask-her-what-music-she-likes/ask-her-what-music-she-likes.ru.md)
+ * [Finding a block and reading its params](https://github.com/toivonen/bem-love/blob/master/desktop.bundles/ask-her-what-music-she-likes/ask-her-what-music-she-likes.ru.md)
