@@ -1,6 +1,8 @@
-This project is to show how 2 (or more, haha) BEM blocks can be connected and
+This project is to show how 2 (or more, haha) [BEM](http://bem.info/) blocks can be connected and
 share data.<br/>
 Project runs currently in Russian.
+
+![Love in terms of BEM](http://www.loveisfan.com/images/love-is-66-1995.jpg)
 
 Every page shows some features of
 [i-bem](https://github.com/bem/bem-bl/tree/master/blocks-common/i-bem)
