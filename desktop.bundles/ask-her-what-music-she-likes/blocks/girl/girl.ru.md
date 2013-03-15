@@ -15,3 +15,7 @@ BEMJSON-данные (описание блока). В BEMJSON можно ука
     js: {
         music: 'classic'
     }
+
+<!-- Yandex.Metrika counter -->
+<img src="//mc.yandex.ru/watch/20590624" style="position:absolute;left:-9999px;" alt="" />
+<!-- /Yandex.Metrika counter -->
