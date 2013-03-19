@@ -18,3 +18,9 @@ List of pages:
 <!-- Yandex.Metrika counter -->
 <img src="http://mc.yandex.ru/watch/20590624" style="position:absolute;left:-9999px;" alt="" />
 <!-- /Yandex.Metrika counter -->
+
+## How to contribute
+The project uses [BEM project stub](https://github.com/bem/project-stub)
+structure. To get started, clone your fork and run `make server`'.<br/>
+If you need any help, just ask [on Twitter](https://twitter.com/toivonens) or
+[creare an issue](https://github.com/toivonen/bem-love/issues/new).
