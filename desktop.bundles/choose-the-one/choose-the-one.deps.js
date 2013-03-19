@@ -89,17 +89,17 @@ exports.deps = [
     },
     {
         "block": "girl",
-        "mod": "cute"
+        "mod": "dressed"
     },
     {
         "block": "girl",
-        "mod": "cute",
-        "val": "no"
+        "mod": "dressed",
+        "val": "excellently"
     },
     {
         "block": "girl",
-        "mod": "cute",
-        "val": "yes"
+        "mod": "dressed",
+        "val": "toppingly"
     },
     {
         "block": "boy"

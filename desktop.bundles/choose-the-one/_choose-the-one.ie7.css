@@ -62,21 +62,21 @@ html, .b-page__body
 
 /* blocks/girl/girl.css end */
 
-/* blocks/girl/_cute/girl_cute_no.css begin */
-.girl_cute_no .girl__body
+/* blocks/girl/_dressed/girl_dressed_excellently.css begin */
+.girl_dressed_excellently .girl__body
 {
     background-color: #fff;
 }
 
-/* blocks/girl/_cute/girl_cute_no.css end */
+/* blocks/girl/_dressed/girl_dressed_excellently.css end */
 
-/* blocks/girl/_cute/girl_cute_yes.css begin */
-.girl_cute_yes .girl__body
+/* blocks/girl/_dressed/girl_dressed_toppingly.css begin */
+.girl_dressed_toppingly .girl__body
 {
     background-color: yellow;
 }
 
-/* blocks/girl/_cute/girl_cute_yes.css end */
+/* blocks/girl/_dressed/girl_dressed_toppingly.css end */
 
 /* blocks/boy/boy.css begin */
 .boy

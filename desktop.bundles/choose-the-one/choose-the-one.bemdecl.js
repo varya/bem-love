@@ -9,10 +9,10 @@ exports.blocks = [
         "name": "girl",
         "mods": [
             {
-                "name": "cute",
+                "name": "dressed",
                 "vals": [
-                    "no",
-                    "yes"
+                    "excellently",
+                    "toppingly"
                 ]
             }
         ]
