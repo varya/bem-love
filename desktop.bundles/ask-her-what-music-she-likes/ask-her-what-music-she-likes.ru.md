@@ -9,5 +9,5 @@
  * [boy](https://github.com/toivonen/bem-love/blob/master/desktop.bundles/ask-her-what-music-she-likes/blocks/boy/boy.ru.md)
 
 <!-- Yandex.Metrika counter -->
-<img src="//mc.yandex.ru/watch/20590624" style="position:absolute;left:-9999px;" alt="" />
+<img src="http://mc.yandex.ru/watch/20590624" style="position:absolute;left:-9999px;" alt="" />
 <!-- /Yandex.Metrika counter -->

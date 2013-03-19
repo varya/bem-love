@@ -13,7 +13,7 @@
             content: [
                 {
                     block: 'girl',
-                    mods: { 'cute': 'no'},
+                    mods: { 'dressed': 'excellently' },
                     js: {
                         music: 'rock-n-roll'
                     }
@@ -26,7 +26,7 @@
                 },
                 {
                     block: 'girl',
-                    mods: { cute: 'yes' }
+                    mods: { 'dressed': 'toppingly' }
                 }
             ]
         },
