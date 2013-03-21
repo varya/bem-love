@@ -1,4 +1,16 @@
 .girl_dressed_excellently .girl__body
 {
-    background-color: #fff;
+
+    position: relative;
+    display: inline-block;
+
+    overflow: hidden;
+    visibility: hidden;
+
+    -webkit-transform: scale(1,2) rotate(-45deg);
+            transform: scale(1,2) rotate(-45deg);
+    -webkit-transform-origin: 123% 80%;
+            transform-origin: 123% 80%;
+
+    background: red;
 }

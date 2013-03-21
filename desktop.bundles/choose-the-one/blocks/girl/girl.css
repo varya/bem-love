@@ -29,7 +29,24 @@
 
 .girl__body
 {
-    width: 70px;
+    width: 130px;
     height: 130px;
-    margin-left: 15px;
+}
+
+.girl__body:before
+{
+    visibility: visible;
+
+    content: "";
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    -webkit-transform: rotate(45deg) scale(1,0.5);
+            transform: rotate(45deg) scale(1,0.5);
+    -webkit-transform-origin: 123% 80%;
+            transform-origin: 123% 80%;
+
+    background: inherit;
 }
