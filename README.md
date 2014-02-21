@@ -13,7 +13,8 @@ any contribution: either imporving code or translation work.
 
 List of pages:
 
- * [Finding a block and reading its params](https://github.com/toivonen/bem-love/blob/master/desktop.bundles/ask-her-what-music-she-likes/ask-her-what-music-she-likes.ru.md)
+ * [Finding a block and reading its
+params](https://github.com/varya/bem-love/blob/master/desktop.bundles/ask-her-what-music-she-likes/ask-her-what-music-she-likes.ru.md)
 
 ## How to contribute
 The project uses [BEM project stub](https://github.com/bem/project-stub)
