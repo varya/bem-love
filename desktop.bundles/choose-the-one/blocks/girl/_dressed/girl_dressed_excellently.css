@@ -12,5 +12,10 @@
     -webkit-transform-origin: 123% 80%;
             transform-origin: 123% 80%;
 
-    background: red;
+
+    background:
+        -webkit-linear-gradient(-90deg,  transparent 16%, #44a161 16%, #44a161 36%, transparent 36%) 0 0,
+        -webkit-radial-gradient(100% 50%, #3d2b1f 0%, #3d2b1f 30%, transparent 30%) 30px 30px;
+
+    background-color: #faf0e6;
 }
